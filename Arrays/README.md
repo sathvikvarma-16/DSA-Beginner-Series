@@ -20,49 +20,48 @@ This folder contains beginner-friendly array problems with clear explanations an
 5. Best Time to Buy and Sell Stock 4
 6. Contains Duplicate
 7. Maximum Subarray
-8. Merge Sorted Array
-9. Move Zeroes
-10. Remove Duplicates from Sorted Array
-11. Remove Element
-12. Plus One
-13. Find Pivot Index
+8. Move Zeroes
+9. Remove Duplicates from Sorted Array
+10. Remove Element
+11. Plus One
+12. Find Pivot Index
 
 ### Level 2 - Two Pointers & Sliding Window
-14. Container With Most Water
-15. 3Sum
-16. 3Sum Closest
-17. 4Sum
-18. Sort Colors
-19. Trapping Rain Water
-20. Product of Array Except Self
-21. Maximum Product Subarray
-22. Longest Consecutive Sequence
-23. Subarray Sum Equals K
-24. Maximum Average Subarray I
-25. Minimum Size Subarray Sum
+13. Container With Most Water
+14. 3Sum
+15. 3Sum Closest
+16. 4Sum
+17. Sort Colors
+18. Trapping Rain Water
+29. Product of Array Except Self
+20. Maximum Product Subarray
+21. Longest Consecutive Sequence
+22. Subarray Sum Equals K
+23. Maximum Average Subarray I
+24. Minimum Size Subarray Sum
 
 ### Level 3 - Prefix Sum / Greedy
-26. Gas Station
-27. Jump Game
-28. Jump Game II
-29. Candy
-30. Rotate Array
-31. Majority Element
-32. Majority Element II
-33. Find All Numbers Disappeared in an Array
-34. Set Matrix Zeroes
-35. Spiral Matrix
-36. Spiral Matrix II
-37. Insert Interval
-38. Merge Intervals
+25. Gas Station
+26. Jump Game
+27. Candy
+28. Rotate Array
+29. Majority Element
+30. Majority Element II
+31. Find All Numbers Disappeared in an Array
+32. Set Matrix Zeroes
+33. Jump Game II
+34. Spiral Matrix
+35. Spiral Matrix II
+36. Insert Interval
+37. Merge Intervals
 
 ### Level 4 - Binary Search
-39. Search in Rotated Sorted Array
-40. Find Minimum in Rotated Sorted Array
-41. Search Insert Position
-42. First Bad Version
-43. Peak Index in a Mountain Array
-44. Find Peak Element
+38. Search in Rotated Sorted Array
+39. Find Minimum in Rotated Sorted Array
+40. Search Insert Position
+41. First Bad Version
+42. Peak Index in a Mountain Array
+43. Find Peak Element
 
 ---
 
