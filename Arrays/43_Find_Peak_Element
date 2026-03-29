@@ -1,0 +1,30 @@
+"""
+Problem: Find Peak Element
+Link: https://leetcode.com/problems/find-peak-element/
+
+Approach:
+- Use binary search.
+- Compare mid with mid+1:
+    → If nums[mid] < nums[mid+1] → peak is on right side
+    → Else → peak is on left side (including mid)
+- Continue until left == right.
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+"""
+
+def findPeakElement(nums):
+    left = 0
+    right = len(nums) - 1
+
+    while left < right:
+        mid = (left + right) // 2
+
+        # If we are in ascending slope → move right
+        if nums[mid] < nums[mid + 1]:
+            left = mid + 1
+        else:
+            # Descending slope or peak → move left
+            right = mid
+
+    return left
