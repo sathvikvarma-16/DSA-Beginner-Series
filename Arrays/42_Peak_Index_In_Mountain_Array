@@ -1,0 +1,31 @@
+"""
+Problem: Peak Index in a Mountain Array
+Link: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+
+Approach:
+- Use binary search.
+- In a mountain array:
+    → Increasing part → nums[mid] < nums[mid+1]
+    → Decreasing part → nums[mid] > nums[mid+1]
+- If mid is in increasing part → move right.
+- Else → move left (including mid).
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+"""
+
+def peakIndexInMountainArray(arr):
+    left = 0
+    right = len(arr) - 1
+
+    while left < right:
+        mid = (left + right) // 2
+
+        # If we are in increasing part
+        if arr[mid] < arr[mid + 1]:
+            left = mid + 1
+        else:
+            # We are in decreasing part or at peak
+            right = mid
+
+    return left
