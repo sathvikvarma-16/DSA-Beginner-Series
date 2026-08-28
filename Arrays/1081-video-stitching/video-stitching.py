@@ -12,9 +12,11 @@ class Solution:
                 farthest = max(farthest, clips[i][1])
                 i += 1
             if farthest == current:
+                # farthest == current means no available clip can take us even one step further, so reaching time is impossible.
                 return -1
             # Move current to farthest and count one clip
             count += 1
             current = farthest
         return count
+
 
