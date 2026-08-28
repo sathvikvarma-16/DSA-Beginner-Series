@@ -5,14 +5,15 @@ class Solution:
         heap = []
         # Total time used
         time = 0
-        for duration, deadline in courses:
+        for duration, deadline in courses:  
             # Take this course
             time += duration
             heapq.heappush(heap, -duration)
-            # If we missed the deadline
+            # If we missed the deadline                                
             if time > deadline:
                 # Remove the longest course
                 longest = -heapq.heappop(heap)
                 # Get its time back
                 time -= longest
         return len(heap)
+
