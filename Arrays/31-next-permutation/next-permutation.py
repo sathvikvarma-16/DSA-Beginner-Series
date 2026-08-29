@@ -6,9 +6,9 @@ class Solution:
         while i >= 0 and nums[i] >= nums[i + 1]:
             i -= 1
         # If such a number exists, find a bigger number from the right
-        if i >= 0:
+        if i >= 0: # We now need to find a number just bigger than nums[i] from the right side.
             j = n - 1
-            while nums[j] <= nums[i]:
+            while nums[j] <= nums[i]: 
                 j -= 1
             # Swap them to make the permutation slightly bigger
             nums[i], nums[j] = nums[j], nums[i]
