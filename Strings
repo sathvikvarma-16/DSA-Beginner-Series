@@ -1,0 +1,35 @@
+# Strings
+
+A structured collection of string problems solved in Python as part of my DSA preparation.
+
+This section focuses on understanding string manipulation, common problem-solving patterns, and efficient algorithms through LeetCode practice.
+
+## Topics Covered
+
+- String Fundamentals
+- String Traversal
+- Hashing & Frequency Counting
+- Two Pointers
+- Sliding Window
+- Stack-Based String Problems
+- String Manipulation
+- Pattern Matching
+- Palindromes
+- Greedy Algorithms
+- Dynamic Programming
+
+## Problems List
+
+Problems will be organized into levels based on difficulty and problem-solving patterns.
+
+### Level 1 - Fundamentals
+
+### Level 2 - Hashing & Two Pointers
+
+### Level 3 - Sliding Window & String Patterns
+
+### Level 4 - Advanced String Problems
+
+## Goal
+
+Build strong fundamentals in strings and develop the ability to recognize and apply appropriate problem-solving patterns efficiently.
