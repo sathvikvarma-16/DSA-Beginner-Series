@@ -3,9 +3,9 @@ class Solution:
         return True
 
 """
-If nums1[i] is even, you can keep it as it is, so nums2[i] stays even.
-If nums1[i] is odd, you need to subtract another number with the same parity to make it even.
-Therefore, if there is at least one even number, every odd number can subtract that even number and remain odd, so that does not help.
-To make an odd number even, it must subtract an odd number.
-Since j != i, you need another odd number.
+Yes. The correct logic for all cases is: return True
+
+If there is at least one odd number, we can make the whole array odd. => For every even number 
+x: x - odd = odd
+If there are no odd numbers, all numbers are already even..
 """
