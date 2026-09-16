@@ -10,3 +10,4 @@ class Solution:
             num = num * 2 + head.val
             head = head.next
         return num
+        
