@@ -13,8 +13,7 @@ class Solution:
         k = 0
         for i in range(rows):
             for j in range(cols):
-                ans[k // c][k % c] = mat[i][j]
+                ans[k // c][k % c] = mat[i][j]  # k//c tells row number and k%c tells column number
                 k += 1
         return ans
 
-        
