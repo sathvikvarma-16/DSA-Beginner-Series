@@ -15,4 +15,13 @@ class Solution:
             inorder(node.right)
         inorder(root)
         return values[k - 1]
-        
+
+    
+
+'''
+Logic:
+
+Inorder traversal visits BST values in ascending order.
+Store the values in a list.
+Return the value at index k - 1.
+'''
