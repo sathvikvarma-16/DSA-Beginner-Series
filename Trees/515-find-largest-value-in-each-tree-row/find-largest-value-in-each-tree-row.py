@@ -21,3 +21,12 @@ class Solution:
                     queue.append(node.right)  # Add right child
             result.append(largest)  # Store largest value of this level
         return result
+
+"""
+Put the root into the queue.
+Process all nodes at the current level.
+Keep updating largest whenever you find a bigger value.
+Add the children of each node to the queue.
+After finishing the level, add largest to the result.
+Repeat until the queue is empty.
+"""
