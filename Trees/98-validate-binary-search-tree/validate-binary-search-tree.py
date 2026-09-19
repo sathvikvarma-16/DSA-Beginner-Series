@@ -15,3 +15,4 @@ class Solution:
             right = check(node.right, node.val, high)  # Right values must be greater
             return left and right
         return check(root, float('-inf'), float('inf'))  # Start with unlimited range
+        
