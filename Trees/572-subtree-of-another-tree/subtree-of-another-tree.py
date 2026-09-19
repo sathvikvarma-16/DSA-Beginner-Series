@@ -23,3 +23,10 @@ class Solution:
         if a.val != b.val:
             return False  # Values do not match
         return self.isSame(a.left, b.left) and self.isSame(a.right, b.right)  # Check both sides
+
+
+"""
+Same indentation level → Call using self.isSame().
+Inside isSubtree() → Call it directly as isSame().
+Here, self refers to the current Solution object.
+""" 
