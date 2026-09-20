@@ -11,5 +11,20 @@ class Solution:
                 total -= values[s[i]]  # Subtract if smaller value comes before larger
             else:
                 total += values[s[i]]  # Otherwise, add the value
-
         return total  # Return the integer
+
+  
+"""
+For example, s = "IV":
+Current symbol: I → value 1
+Next symbol: V → value 5
+Is 1 < 5? Yes!
+So we subtract I:
+total -= 1
+Then, when we reach V, we add 5.
+Final result: -1 + 5 = 4.
+
+Current < Next → subtract current value.
+Current ≥ Next → add current value.
+The last symbol has no next symbol, so we simply add it.
+"""
