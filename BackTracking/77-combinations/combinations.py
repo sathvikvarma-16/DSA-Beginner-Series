@@ -26,4 +26,8 @@ Return ans.
 
 Why x + 1?
 Because we only want each number once, and we want to avoid duplicate combinations like [1, 2] and [2, 1].
+x + 1 means start choosing from the next number, so we don't choose the same number again.
+Example: If x = 2, then backtrack(x + 1) becomes backtrack(3).
+So after choosing 2, we continue from 3
 """
+
