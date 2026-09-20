@@ -12,3 +12,4 @@ class Solution:
                 ans.append(depth % 2)  # Assign based on matching depth
 
         return ans  # Return the group assignments
+        
