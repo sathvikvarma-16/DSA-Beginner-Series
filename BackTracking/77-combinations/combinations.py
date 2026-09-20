@@ -14,3 +14,16 @@ class Solution:
 
         backtrack(1)  # Start choosing from 1
         return ans  # Return all combinations
+
+"""
+Start with number 1.
+Add a number to sol.
+Call backtrack(x + 1) to choose the next number.
+When sol contains k numbers, save a copy in ans.
+Remove the last number using sol.pop().
+Try the next number.
+Return ans.
+
+Why x + 1?
+Because we only want each number once, and we want to avoid duplicate combinations like [1, 2] and [2, 1].
+"""
