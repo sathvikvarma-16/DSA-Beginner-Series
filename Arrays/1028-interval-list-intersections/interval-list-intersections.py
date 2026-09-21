@@ -12,4 +12,4 @@ class Solution:
                 i += 1
             else:  # Second interval ends first
                 j += 1
-        return ans
+        return ans # answer
