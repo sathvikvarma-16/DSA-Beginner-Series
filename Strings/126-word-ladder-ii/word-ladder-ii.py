@@ -3,10 +3,10 @@ class Solution:
         words = set(wordList)
         if endWord not in words:
             return []
-        queue = deque([beginWord])
-        parents = defaultdict(list)
-        visited = {beginWord}
-        found = False
+        queue = deque([beginWord])  #queue starts with 'hit'
+        parents = defaultdict(list) # parents stores which words can lead to each word.
+        visited = {beginWord} # stores words we have already explored.
+        found = False # tells us whether we have reached "cog".
         while queue and not found:
             level_visited = set()
             for _ in range(len(queue)):
@@ -15,7 +15,7 @@ class Solution:
                     for ch in "abcdefghijklmnopqrstuvwxyz":
                         newWord = word[:i] + ch + word[i + 1:]
                         if newWord in words and newWord not in visited:
-                            parents[newWord].append(word)
+                            parents[newWord].append(word) # Records which word led to the new word.
                             if newWord not in level_visited:
                                 level_visited.add(newWord)
                                 queue.append(newWord)
