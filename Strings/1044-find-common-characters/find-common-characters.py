@@ -20,4 +20,4 @@ class Solution:
         result = []
         for ch, count in freq.items():
             result.extend([ch]*count)
-        return result
+        return result # returns answer
