@@ -19,7 +19,7 @@ class Solution:
             # If they meet, a cycle exists
             if slow == fast:
                 break
-        # If fast reached the end, there is NO cycle
+        # If fast reached the end there is NO cycle
         else:
             return None
 
