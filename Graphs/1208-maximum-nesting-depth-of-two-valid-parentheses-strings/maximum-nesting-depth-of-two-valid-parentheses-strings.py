@@ -1,14 +1,15 @@
-class Solution(object):
-    def maxDepthAfterSplit(self, seq):
-        depth = 0
-        ans = []
+class Solution:
+    def maxDepthAfterSplit(self, seq: str) -> list[int]:
+        ans = []  # Store which group each parenthesis belongs to
+        depth = 0  # Track current nesting depth
 
         for ch in seq:
-            if ch == '(':
-                depth += 1
-                ans.append(depth % 2)
-            else:
-                ans.append(depth % 2)
-                depth -= 1
+            if ch == '(':  # Opening parenthesis
+                ans.append(depth % 2)  # Assign based on current depth
+                depth += 1  # Increase depth
+            else:  # Closing parenthesis
+                depth -= 1  # Decrease depth first
+                ans.append(depth % 2)  # Assign based on matching depth
 
-        return ans
+        return ans  # Return the group assignments
+        
