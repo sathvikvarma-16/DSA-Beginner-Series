@@ -22,7 +22,7 @@ class Solution:
 
         """
         a travels: List A + List B
-        b travels: List B + List A
+        b travels: List B + List A.
 
 Therefore, if an intersection exists, they meet at the intersection node. If there is no intersection, both eventually become None and the loop stops.
 """
