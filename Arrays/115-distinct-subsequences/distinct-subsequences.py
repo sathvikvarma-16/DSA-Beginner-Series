@@ -12,4 +12,4 @@ class Solution:
                     dp[i][j] = dp[i + 1][j + 1] + dp[i + 1][j]
                 else:
                     dp[i][j] = dp[i + 1][j]
-        return dp[0][0] # 
+        return dp[0][0] # returns answer
