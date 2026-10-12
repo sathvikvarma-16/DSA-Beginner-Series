@@ -2,7 +2,7 @@ class Solution:
     def subsetsWithDup(self, nums: list[int]) -> list[list[int]]:
         ans, sol = [], []  # Store all subsets and build one subset
         nums.sort()  # Put duplicate numbers next to each other
-        n = len(nums)
+        n =len(nums)
 
         def backtrack(start):
             ans.append(sol[:])  # Save the current subset
