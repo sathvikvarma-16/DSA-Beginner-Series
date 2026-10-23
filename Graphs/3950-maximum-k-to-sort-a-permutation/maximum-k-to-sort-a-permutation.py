@@ -6,3 +6,4 @@ class Solution:
             if x != i:
                 k &= x
         return max(k, 0)
+        
