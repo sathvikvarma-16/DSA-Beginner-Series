@@ -22,7 +22,7 @@ Is 1 < 5? Yes!
 So we subtract I:
 total -= 1
 Then, when we reach V, we add 5.
-Final result: -1 + 5 = 4.
+Final result: -1 + 5 = 4
 
 Current < Next → subtract current value.
 Current ≥ Next → add current value.
